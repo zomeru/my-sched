@@ -25,7 +25,7 @@ const Variables = css`
     // Other
     --max-width: 1500px;
     --transition: all 0.25s ease-in-out;
-    --nav-height: 100px;
+    --nav-height: 80px;
   }
 `;
 
