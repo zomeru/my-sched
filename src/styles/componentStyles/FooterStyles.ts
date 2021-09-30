@@ -9,4 +9,13 @@ export const StyledFooter = styled.footer`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+
+  a {
+    color: var(--white);
+
+    :hover {
+      color: var(--white);
+    }
+  }
 `;

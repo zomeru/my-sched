@@ -38,7 +38,12 @@ export const GlobalStyles = createGlobalStyle`
     font-family: var(--font-main);
     background-color: var(--white);
     color: var(--black);
+    overflow-x: hidden;
     /* max-width: var(--max-width); */
+  }
+
+  section {
+    padding: 50px;
   }
 
   ul, li, ol {

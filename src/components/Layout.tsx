@@ -1,12 +1,15 @@
 import React from 'react';
 import { StyledLayout } from '../styles/componentStyles/LayoutStyles';
+import Rooms from './Rooms';
 
 interface LayoutProps {}
 
-const Layout: React.FC<LayoutProps> = ({ children }) => {
+const Layout: React.FC<LayoutProps> = ({}) => {
   return (
     <StyledLayout>
-      <main>{children}</main>
+      <main>
+        <Rooms />
+      </main>
     </StyledLayout>
   );
 };

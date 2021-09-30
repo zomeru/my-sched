@@ -6,7 +6,10 @@ interface FooterProps {}
 const Footer: React.FC<FooterProps> = () => {
   return (
     <StyledFooter>
-      <p>Designed and build by Zomer Gregorio.</p>
+      <a href='https://zomer.xyz' target='_blank' rel='noreferrer'>
+        <p>Designed and built by Zomer Gregorio.</p>
+        <p>&copy; 2021 - Zomer Gregorio. All rights reserved.</p>
+      </a>
     </StyledFooter>
   );
 };
